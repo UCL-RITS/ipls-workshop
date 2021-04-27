@@ -22,10 +22,11 @@ instructions below:
    - Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
    - **Ensure that "Use Windows' default console window" is selected and click on "Next".**
    - Ensure that "Default (fast-forward or merge) is selected and click "Next". 
-   - Ensure that "Git Credential Manager Core" is selected and click on "Next".
+   - Ensure that "Git Credential Manager **Core**" is selected and click on "Next".
    - Ensure that "Enable file system caching" is selected and click on "Next". 
+   - Click on "Next".
    - Click on "Install".
-   - Unselect "View release notes" (unless you are interested), and click on "Next". 
+   - Unselect "View release notes" (unless you are interested), and click on "Finish". 
 
 If your "HOME" environment variable is not set (or you don't know what this is): 
    - Open the Windows command prompt (Open Start Menu then type `cmd` and press Enter).
