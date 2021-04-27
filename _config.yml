@@ -26,8 +26,6 @@ include:
 
 exclude: 
     - .gitignore
-    - docker-compose.yml
     - Gemfile
     - Gemfile.lock
-    - LICENSE
     - README.md
