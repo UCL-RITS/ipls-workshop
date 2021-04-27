@@ -10,19 +10,24 @@ instructions below:
 
 1. Download the [Git for Windows installer](https://git-for-windows.github.io/).
 1. Run the installer and follow the steps below:
+Ensure that "Git Credential Manager Core" is selected and click on "Next".
+Ensure that "Enable file system caching" is selected and click on "Next".
+Click on "Install".
+Click on "Finish" or "Next".
    - Click on "Next" four times (two times if you've previously installed Git).
      You don't need to change anything in the Information, location, components,
      and start menu screens.
    - **From the dropdown menu, select “Use the nano editor by default” and click on “Next”.**
+   - On the page that says "Adjusting the name of the initial branch in new repositories", ensure 
+     that "Let Git decide" is selected. This will ensure the highest level of compatibility for our lessons.
    - Ensure that "Git from the command line and also from 3rd-party software" is selected and click on
      "Next".
    - Ensure that "Use the OpenSSL library" is selected and click on "Next".
    - Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
    - **Ensure that "Use Windows' default console window" is selected and click on "Next".**
    - Ensure that "Default (fast-forward or merge) is selected and click "Next". 
-   - Ensure that the (New!) "Git Credential Manager Core" is selected and click on "Next". 
+   - Ensure that "Git Credential Manager Core" is selected and click on "Next".
    - Ensure that "Enable file system caching" is selected and click on "Next". 
-   - Experimental features: Keep the default (i.e., nothing selected) - click "Next"
    - Click on "Install".
    - Unselect "View release notes" (unless you are interested), and click on "Next". 
 
@@ -39,7 +44,7 @@ You should be able to open the git bash terminal by searching "git bash" on your
 Check that your installation has been successful:
 1. The window title of the git bash terminal starts with `MINGW64:`. 
 1. If you select any text with the mouse, it's pasted on the prompt when you right-click with the mouse. 
-1. If you run the command `git --version`, it shows you are using the 2.2831 version of git.  
+1. If you run the command `git --version`, it shows you are using the 2.31 version of git.  
 
 ## Python
 {% include python.md os="win" %}
