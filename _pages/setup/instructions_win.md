@@ -10,10 +10,6 @@ instructions below:
 
 1. Download the [Git for Windows installer](https://git-for-windows.github.io/).
 1. Run the installer and follow the steps below:
-Ensure that "Git Credential Manager Core" is selected and click on "Next".
-Ensure that "Enable file system caching" is selected and click on "Next".
-Click on "Install".
-Click on "Finish" or "Next".
    - Click on "Next" four times (two times if you've previously installed Git).
      You don't need to change anything in the Information, location, components,
      and start menu screens.
