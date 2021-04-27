@@ -11,7 +11,7 @@ If not, the installation steps depend on the Linux distribution you are using. I
 
 - A Debian based distribution (e.g., Ubuntu, Mint, ...) you can use `apt` : `apt install git`
 - A RedHat based distribution (e.g., Fedora, CentOS, ...) you can use `dnf`: `dnf install git`
-- OpenSuse you can use zipper: `zypper install git`
+- OpenSuse you can use `zipper`: `zypper install git`
 - An Arch Linux based distribution (e.g., Manjaro, ...) you can use `pacman`: `pacman -S git`
 
 ## Python
