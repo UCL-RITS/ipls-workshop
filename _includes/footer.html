@@ -1,0 +1,35 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper"> These instructions are based on the <a href="https://github.com/carpentries/workshop-template">Software Carpentry workshop template</a>,
+    released under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY 4.0</a> license.
+    Site inspired by the <a href="gh-pages-minima-starter">gh-pages-minima-starter template by jsanz</a>.</div>
+</footer>
