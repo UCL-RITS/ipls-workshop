@@ -30,6 +30,8 @@ Take a look at the instructions for your operating system:
 - [Linux](_pages/setup/instructions_linux.html)
 - [MacOS](_pages/setup/instructions_mac.html)
 
+As a backup option, you can follow the workshop via Desktop@UCL. Please see [our instructions](_pages/setup/desktop.html).
+
 ## Other setup
 The workshop will be held over Zoom, so please make sure you have that [set up](https://liveuclac.sharepoint.com/sites/Zoom) and [up-to-date](https://support.zoom.us/hc/en-us/articles/201362233-Upgrade-update-to-the-latest-version) too!
 
