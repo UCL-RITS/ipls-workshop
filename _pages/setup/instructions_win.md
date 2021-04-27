@@ -24,7 +24,7 @@ instructions below:
    - Ensure that "Default (fast-forward or merge) is selected and click "Next". 
    - Ensure that "Git Credential Manager **Core**" is selected and click on "Next".
    - Ensure that "Enable file system caching" is selected and click on "Next". 
-   - Click on "Next".
+   - Experimental features: Keep the default (i.e., nothing selected) - click "Next".
    - Click on "Install".
    - Unselect "View release notes" (unless you are interested), and click on "Finish". 
 
