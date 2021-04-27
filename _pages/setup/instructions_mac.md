@@ -19,3 +19,6 @@ If you want to obtain a newer version, then you can [install it with a differe
 
 ## Pytest
 {% include pytest.md %}
+
+## Optional: VS Code
+{% include vscode.md os="mac"%}

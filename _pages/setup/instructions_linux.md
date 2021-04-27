@@ -20,3 +20,6 @@ If not, the installation steps depend on the Linux distribution you are using. I
 
 ## Pytest
 {% include pytest.md %}
+
+## Optional: VS Code
+{% include vscode.md os="linux" %}

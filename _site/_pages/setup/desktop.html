@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Using Desktop@UCL | IPLS workshop 30 April 2021</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Using Desktop@UCL" />
+<meta name="author" content="UCL Research Software Development Group" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Setup instructions for the IPLS Good Practices workshop" />
+<meta property="og:description" content="Setup instructions for the IPLS Good Practices workshop" />
+<link rel="canonical" href="http://localhost:4000/_pages/setup/desktop.html" />
+<meta property="og:url" content="http://localhost:4000/_pages/setup/desktop.html" />
+<meta property="og:site_name" content="IPLS workshop 30 April 2021" />
+<script type="application/ld+json">
+{"headline":"Using Desktop@UCL","url":"http://localhost:4000/_pages/setup/desktop.html","author":{"@type":"Person","name":"UCL Research Software Development Group"},"description":"Setup instructions for the IPLS Good Practices workshop","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="IPLS workshop 30 April 2021" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">IPLS workshop 30 April 2021</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/">Setup instructions</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Using Desktop@UCL</h1>
+  </header>
+
+  <div class="post-content">
+    <p>At <a href="https://my.desktop.ucl.ac.uk/">Desktop@UCL</a> you can find Anaconda and a terminal (git bash). If you want to access anaconda from within git bash you’ll need to follow these steps:</p>
+
+<ol>
+  <li>Open git bash 2.22.0</li>
+  <li>Type <code class="language-plaintext highlighter-rouge">echo $HOME</code>. If it doesn’t show <code class="language-plaintext highlighter-rouge">/n/</code>, then:
+    <ol>
+      <li>Create a new file with nano: <code class="language-plaintext highlighter-rouge">nano ~/.bash_profile</code></li>
+      <li>Add the following content to it:
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> OLDHOME="${HOME}"  
+ export HOME="/n/"  
+ cd $HOME [[ ! -f OLDHOME/.bash_profile ]] &amp;&amp; cp $HOME/.bash_profile $OLDHOME 
+</code></pre></div>        </div>
+      </li>
+    </ol>
+  </li>
+  <li>Open a new git bash terminal and run: <code class="language-plaintext highlighter-rouge">conda init bash</code> (this may say that the operation failed, but it’s OK)</li>
+  <li>Open a new terminal again. It may show a bash error at the start, but everything should work fine.</li>
+</ol>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">UCL Research Software Development Group</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Setup instructions for the IPLS Good Practices workshop</p>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper"> These instructions are based on the <a href="https://github.com/carpentries/workshop-template">Software Carpentry workshop template</a>,
+    released under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY 4.0</a> license.
+    Site inspired by the <a href="gh-pages-minima-starter">gh-pages-minima-starter template by jsanz</a>.</div>
+</footer>
+</body>
+
+</html>

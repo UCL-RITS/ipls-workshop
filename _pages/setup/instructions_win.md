@@ -47,3 +47,6 @@ Check that your installation has been successful:
 
 ## Pytest
 {% include pytest.md %}
+
+## Optional: VS Code
+{% include vscode.md os="win" %}
