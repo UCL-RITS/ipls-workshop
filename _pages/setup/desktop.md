@@ -11,7 +11,8 @@ At [Desktop@UCL](https://my.desktop.ucl.ac.uk/) you can find Anaconda and a 
     ```
     OLDHOME="${HOME}"  
     export HOME="/n/"  
-    cd $HOME [[ ! -f OLDHOME/.bash_profile ]] && cp $HOME/.bash_profile $OLDHOME 
+    cd $HOME
+    [[ ! -f OLDHOME/.bash_profile ]] && cp $HOME/.bash_profile $OLDHOME 
     ```
 1. Open a new git bash terminal and run: `conda init bash` (this may say that the operation failed, but it's OK) 
 1. Open a new terminal again. It may show a bash error at the start, but everything should work fine. 
