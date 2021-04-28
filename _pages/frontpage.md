@@ -35,6 +35,8 @@ As a backup option, you can follow the workshop via Desktop@UCL. Please see [our
 ## Other setup
 The workshop will be held over Zoom, so please make sure you have that [set up](https://liveuclac.sharepoint.com/sites/Zoom) and [up-to-date](https://support.zoom.us/hc/en-us/articles/201362233-Upgrade-update-to-the-latest-version) too!
 
+ You will also need an account at github.com for parts of the Git lesson. Basic GitHub accounts are free. We encourage you to create a GitHub account if you don't have one already. Please consider what personal information you'd like to reveal. For example, you may want to review these [instructions for keeping your email address private](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) provided at GitHub.
+
 Finally, you may want to read [some useful tips on how to best set up your screen](https://carpentries.org/blog/2020/06/online-workshop-logistics-and_screen-layouts/) for online workshops.
 
 ## Help
