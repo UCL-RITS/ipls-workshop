@@ -15,3 +15,5 @@ At [Desktop@UCL](https://my.desktop.ucl.ac.uk/) you can find Anaconda and a 
     ```
 1. Open a new git bash terminal and run: `conda init bash` (this may say that the operation failed, but it's OK) 
 1. Open a new terminal again. It may show a bash error at the start, but everything should work fine. 
+
+This checks whether you had created a startup configuration in your home directory and copies to the new home on the n drive.
